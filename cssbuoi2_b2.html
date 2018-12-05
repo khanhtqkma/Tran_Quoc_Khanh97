@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	*{
+		margin: 0;
+		font-size: 13pt;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	#menu{
+		width: 100%;
+		margin-right:10%; 
+		margin-left:10%;
+	}
+	li{
+		list-style: none;
+	}
+	#menu ul> li{
+		float: left;
+		padding: 20px;
+		background-color: #92ca5c;
+	}
+	#menu .menu-lv1:not(.end){
+		border-right: 1px solid white;
+	}
+	#menu .menu-lv1{
+		position: relative;
+	}
+	#menu .menu-lv1 > ul{
+		display: none;
+		position: absolute;
+		top: 61px;
+		left: -40px;
+	}
+	#menu .menu-lv2{
+		width: 150px;
+	}
+	#menu .menu-lv2:not(.end){
+		border-bottom: 1px solid white;
+		
+		border-right: 1px solid white;
+	}
+	#menu .menu-lv1:hover > ul{
+		display: block;
+	}
+	#menu .menu-lv1:hover{
+		background-color: #3b8d36;
+	}
+	#menu .menu-lv2:hover{
+		background-color: #3b8d36;
+	}
+	#menu .menu-lv3:hover{
+		background-color: #3b8d36;
+	}
+	#menu .menu-lv1 li:hover > a{
+		color: black;
+	}
+	#menu .menu-lv2{
+		position: relative;
+	}
+	#menu .menu-lv2 > ul{
+		display: none;
+		position: absolute;
+		top: 0px;
+		left:150px;
+	}
+	#menu .menu-lv2:hover>ul{
+		display: block;
+	}
+	#menu .menu-lv3{
+		width: 150px;
+	}
+	#menu .menu-lv3:not(.end){
+		border-bottom: 1px solid white;
+	}
+</style>
+
+</head>
+<body>
+	<div id="menu">
+		<ul>
+			<li class="menu-lv1"><a href="">Xem danh mục</a>
+				<ul>
+					<li class="menu-lv2"><a href="">Trang chủ 24h</a></li>
+					<li class="menu-lv2"><a href="">Tin tức trong ngày</a>
+						<ul>
+							<li class="menu-lv3"><a href="">Tin Hà Nội</a></li>
+							<li class="menu-lv3"><a href="">Tin TP Hồ Chí Minh</a></li>
+							<li class="menu-lv3"><a href="">Tin Đà Nẵng</a></li>
+							<li class="menu-lv3"><a href="">Tai nạn giao thông</a></li>
+							<li class="menu-lv3"><a href="">Tin Cần Thơ</a></li>
+							<li class="menu-lv3 end"><a href="">Dự báo thời tiết</a></li>
+						</ul>
+					</li>
+					<li class="menu-lv2"><a href="">Bóng đá</a></li>
+					<li class="menu-lv2"><a href="">Thế giới</a></li>
+					<li class="menu-lv2"><a href="">Thời trang</a></li>
+					<li class="menu-lv2"><a href="">An ninh xã hội</a></li>
+					<li class="menu-lv2"><a href="">Thời trang Hi-tech</a></li>
+					<li class="menu-lv2"><a href="">Ẩm thực</a></li>
+					<li class="menu-lv2"><a href="">Làm đẹp</a></li>
+					<li class="menu-lv2"><a href="">Đời sống Showbiz</a></li>
+					<li class="menu-lv2"><a href="">Giải trí</a></li>
+					<li class="menu-lv2"><a href="">Bạn trẻ - Cuộc sống</a></li>
+					<li class="menu-lv2"><a href="">Giáo dục - Du học</a></li>
+					<li class="menu-lv2 end"><a href="">Thể thao</a></li>
+				</ul>
+			</li>
+			<li class="menu-lv1"><a href="">Tin tức quốc tế</a>
+				<ul>
+					<li class="menu-lv2"><a href="">Điểm nóng</a></li>
+					<li class="menu-lv2"><a href="">Quân sự</a></li>
+					<li class="menu-lv2"><a href="">Hồ sơ</a></li>
+					<li class="menu-lv2 end"><a href="">Thế giới động vật</a></li>
+				</ul>
+			</li>
+			<li class="menu-lv1"><a href="">Hi-tech</a>
+				<ul>
+					<li class="menu-lv2"><a href="">Dế sắp ra lò</a></li>
+					<li class="menu-lv2"><a href="">Tin tức công nghệ</a></li>
+					<li class="menu-lv2"><a href="">Mỹ nữ và công nghệ</a></li>
+					<li class="menu-lv2"><a href="">Laptop giá rẻ</a></li>
+					<li class="menu-lv2"><a href="">Dế giá rẻ</a></li>
+					<li class="menu-lv2"><a href="">Điện thoại</a></li>
+					<li class="menu-lv2"><a href="">Máy tính xách tay</a></li>
+					<li class="menu-lv2"><a href="">Máy nghe nhạc</a></li>
+					<li class="menu-lv2"><a href="">Máy ảnh và camera số</a></li>
+					<li class="menu-lv2"><a href="">Các sản phẩm khác</a></li>
+					<li class="menu-lv2"><a href="">Thế giới công nghệ</a></li>
+					<li class="menu-lv2"><a href="">Máy tính bảng</a></li>
+					<li class="menu-lv2"><a href="">Đánh giá sản phẩm</a></li>
+					<li class="menu-lv2 end"><a href="">Điện tử gia dụng</a></li>
+				</ul>
+			</li>
+			<li class="menu-lv1"><a href="">Showbiz</a></li>
+			<li class="menu-lv1"><a href="">Giải trí</a></li>
+			<li class="menu-lv1"><a href="">Sống trẻ</a></li>
+			<li class="menu-lv1"><a href="">Thể thao</a></li>
+			<li class="menu-lv1"><a href="">Sức khỏe</a></li>
+			<li class="menu-lv1"><a href="">Video</a></li>
+			<li class="menu-lv1 end"><a href="">Game</a></li>
+		</ul>
+
+		
+		
+	</body>
+	</html>
